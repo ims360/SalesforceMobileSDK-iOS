@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.prepare_command = <<-CMD
-      sed -i -e 's/#import \\"Categories\\//#import \\"/g' external/MKNetworkKit @ 3eb421e/MKNetworkKit/MKNetworkKit.h
+      sed -i -e 's/#import \\"Categories\\//#import \\"/g' external/MKNetworkKit/MKNetworkKit/MKNetworkKit.h
   CMD
 
   s.subspec 'SalesforceCommonUtils' do |commonutils|
